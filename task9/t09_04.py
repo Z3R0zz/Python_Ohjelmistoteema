@@ -31,7 +31,7 @@ def race(cars: list[Auto]) -> None:
             car.kiihdyta(random.randint(-10, 15))
             car.kulje(1)
             if car.kuljettu_matka >= 10000:
-                print(f"Car {car.rekisteritunnus} has finished the race!")
+                print(f"Auto {car.rekisteritunnus} on saapunut maaliin!")
                 return
 
 def print_results(cars: list[Auto]):
